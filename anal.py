@@ -44,15 +44,6 @@ for file in data_list:
 
 import numpy as np
 
-# # 假设retry_times是你要计算中位数的列表
-# median = np.median(retry_times)
-
-# print('计入初答的refine次数中位数',median)
-
-# # 假设retry_times是你要计算中位数的列表
-# median = np.median(retry_times_no_one)
-
-# print('不计入初答的refine次数中位数',median + 1)
 
 all_len = len(data_list)
 print('Acc rate',right,all_len,right/all_len)
