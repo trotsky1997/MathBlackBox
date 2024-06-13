@@ -38,3 +38,7 @@ Alert: That would consume a long time.
 ## Disclaimer
 
 This project were still in a very earlier stage for explore, pay attentions for algorithm's output, and do not deploy it to real-world product without fully test.
+
+## Read More
+
+https://arxiv.org/abs/2406.07394
