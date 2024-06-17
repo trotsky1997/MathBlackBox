@@ -17,4 +17,4 @@ names = [
 # DATA_NAME = 'MATH-llama3-8b-new-mcts-8'
 # DATA_NAME = 'AIME-llama3-8b-mcts-2']
 for name in names:
-    os.system(f'sbatch -p vip_gpu_ailab -A ai4phys --gres=gpu:1 batch.sh {model} {name}')
+    os.system(f'sbatch -p vip_gpu_ailab -A ai4phys --gres=gpu:1 batch_run.sh {model} {name}')
