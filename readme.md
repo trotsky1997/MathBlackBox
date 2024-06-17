@@ -1,8 +1,21 @@
 # MCTSr: Mathematic as a Blackbox for LLM
 
+## Envoirment
+
+### Server
+We need VLLM or other Openai compatible method.
+```
+pip install vllm
+```
+### Clients
+We need Huggingface toolkit and Openai for inference.
+```
+pip install datasets transformers openai
+```
+
 ## Usage
 
-The script relys on Slurm, If you run it on non-slurm envoitments,
+The script relies on Slurm, If you run it on non-slurm environments,
 
 Just use VLLM to create a openai compatible server, and insert to 'server.csv'
 
@@ -10,7 +23,7 @@ Just use VLLM to create a openai compatible server, and insert to 'server.csv'
 IP,PORT,MODEL_NAME
 ```
 
-If you run it on slurm envoirment, change the `partition name` to your own partition in `make_n_server.py`
+If you run it on slurm environment, change the `partition name` to your own partition in `make_n_server.py`
 
 then, you can run the `run_with_earlystopping.py` for datasets.
 
@@ -37,7 +50,7 @@ Alert: That would consume a long time.
 
 ## Disclaimer
 
-This project were still in a very earlier stage for explore, pay attentions for algorithm's output, and do not deploy it to real-world product without fully test.
+This project was still in a very early stage for explore, pay attentions for the algorithm's output, and do not deploying it to real-world product without fully test.
 
 ## Read More
 
