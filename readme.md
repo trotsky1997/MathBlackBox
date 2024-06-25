@@ -73,4 +73,5 @@ https://arxiv.org/abs/2406.07394
 ## Re-implementations
 
 https://github.com/BrendanGraham14/mcts-llm
-https://github.com/trotsky1997/MathBlackBox/issues/2
+
+[Jupyter Notebook](https://github.com/trotsky1997/MathBlackBox/issues/2)
