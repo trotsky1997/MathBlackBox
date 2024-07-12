@@ -36,7 +36,7 @@ for file in data_list:
                 pass
             else:
                 answers.append(i)
-        if checklist(data['ground_truth'],answers[2:4]):
+        if checklist(data['ground_truth'],answers):
             right += 1
         else:
             all_fail += 1
