@@ -1,4 +1,12 @@
 # MCTSr: Mathematic as a Blackbox for LLM
+## News
+🚀 Exciting News! At the end of September, we're releasing an upgraded version of the MCTSr algorithm, LLaMA-O1, as an open-source fork of the OpenAI Strawberry project. This enhanced tool specializes in tackling the most challenging Mathematical Olympiad tasks, including:
+
+A remarkable score of 8/30 in AIME 2024 🏆
+An impressive 26.7% in GPQA Diamond 💎
+A solid 58% in AMC 2023 📊
+Stay tuned for the release and get ready to explore the cutting edge of mathematical problem-solving! #OpenSource #MathOlympiad #Innovation
+
 
 ## Envoirment
 
