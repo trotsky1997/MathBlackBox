@@ -209,7 +209,7 @@ def pair_importance_sampling(rewards, actions, nums):
 
 
 def refine_prompt(query,ans):
-    q = f'Since we have a weak Answer, could you provide me with a relection or feedback to correct this answer better? Analyze this Answer Strictly and Critic, point out every flaw for ervery possible imperfect to minus every possible score!\nLet\'s think step by step.'
+    q = f'Since we have a weak Answer, could you provide me with a relection or feedback to correct this answer better? Analyze this Answer Strictly and Critic, point out every flaw for every possible imperfect to minus every possible score!\nLet\'s think step by step.'
     return q
 
 for data_folder in data_folders:
