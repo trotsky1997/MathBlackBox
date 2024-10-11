@@ -1,6 +1,12 @@
 # MCTSr: Mathematic as a Blackbox for LLM
 ## News
-🚀 Exciting News! At the end of September, we're releasing an upgraded version of the MCTSr algorithm, LLaMA-O1, as an open-source fork of the OpenAI Strawberry project. This enhanced tool specializes in tackling the most challenging Mathematical Olympiad tasks, including:
+- 2024-10-11
+New Preprint! 
+LLaMA-Berry: Pairwise Optimization for O1-like Olympiad-Level Mathematical Reasoning
+https://arxiv.org/abs/2410.02884
+
+- 2024-09-30
+🚀 Exciting News! At the end of September, we're releasing an upgraded version of the MCTSr algorithm, LLaMA-Berry, as an open-source fork of the OpenAI Strawberry project. This enhanced tool specializes in tackling the most challenging Mathematical Olympiad tasks, including:
 
 A remarkable score of 8/30 in AIME 2024 🏆
 An impressive 26.7% in GPQA Diamond 💎
