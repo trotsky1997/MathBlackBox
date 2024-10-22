@@ -70,6 +70,16 @@ Alert: That would consume a long time.
       archivePrefix={arXiv},
       primaryClass={id='cs.AI' full_name='Artificial Intelligence' is_active=True alt_name=None in_archive='cs' is_general=False description='Covers all areas of AI except Vision, Robotics, Machine Learning, Multiagent Systems, and Computation and Language (Natural Language Processing), which have separate subject areas. In particular, includes Expert Systems, Theorem Proving (although this may overlap with Logic in Computer Science), Knowledge Representation, Planning, and Uncertainty in AI. Roughly includes material in ACM Subject Classes I.2.0, I.2.1, I.2.3, I.2.4, I.2.8, and I.2.11.'}
 }
+
+@misc{zhang2024llamaberrypairwiseoptimizationo1like,
+      title={LLaMA-Berry: Pairwise Optimization for O1-like Olympiad-Level Mathematical Reasoning}, 
+      author={Di Zhang and Jianbo Wu and Jingdi Lei and Tong Che and Jiatong Li and Tong Xie and Xiaoshui Huang and Shufei Zhang and Marco Pavone and Yuqiang Li and Wanli Ouyang and Dongzhan Zhou},
+      year={2024},
+      eprint={2410.02884},
+      archivePrefix={arXiv},
+      primaryClass={cs.AI},
+      url={https://arxiv.org/abs/2410.02884}, 
+}
 ```
 
 
