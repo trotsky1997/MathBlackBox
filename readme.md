@@ -1,7 +1,15 @@
 # MCTSr: Mathematic as a Blackbox for LLM
 ## News
+- 2024-10-29
+  🚀 Announcement! We have made significant progress in our efforts to replicate OpenAI O1 based on the AlphaGo Zero architecture—LLaMA-O1. We have successfully enabled the model to acquire advanced thinking skills through interaction with the search tree during the learning process without human annotations.
+
+We plan to complete the model training and evaluation no later than the end of November and will release all data, models, and code to the community.
+For the linear representation format of Long COT (OpenLongCoT), please refer:
+https://huggingface.co/datasets/qq8933/OpenLongCoT-Pretrain
+https://huggingface.co/datasets/qq8933/OpenLongCoT-SFT
+
 - 2024-10-12
-  🚀 Exciting News! At the end of October, we’re releasing the next phase of our work on the open-source reimplementation of OpenAI O1, codenamed TiC!
+  🚀 Exciting News! At the end of October, we’re announcing the next phase of our work on the open-source reimplementation of OpenAI O1, codenamed TiC!
 
 - 2024-10-11
 New Preprint! 
