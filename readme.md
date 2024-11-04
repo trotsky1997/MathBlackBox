@@ -1,5 +1,9 @@
 # MCTSr: Mathematic as a Blackbox for LLM
 ## News
+- 2024-11-4
+  LLaMA-O1 is Opensource Now! Call for Contributors!
+  https://github.com/SimpleBerry/LLaMA-O1
+  
 - 2024-10-29
   🚀 Announcement! We have made significant progress in our efforts to replicate OpenAI O1 based on the AlphaGo Zero architecture—LLaMA-O1. We have successfully enabled the model to acquire advanced thinking skills through interaction with the search tree during the learning process without human annotations.
 
