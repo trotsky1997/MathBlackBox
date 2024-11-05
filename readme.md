@@ -99,6 +99,8 @@ Alert: That would consume a long time.
 
 This project was still in a very early stage for explore, pay attentions for the algorithm's output, and do not deploying it to real-world product without fully test.
 
+This repository was for personal experimentation only and has no connection with any third-party organization or institution.
+
 
 ## Read More
 
