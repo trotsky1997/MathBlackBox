@@ -3,12 +3,6 @@
 - 2024-11-4
   LLaMA-O1 is Opensource Now! Call for Contributors!
   https://github.com/SimpleBerry/LLaMA-O1
-  
-- 2024-10-29
-  🚀 Announcement! We have made significant progress in our efforts to replicate OpenAI O1 based on the AlphaGo Zero architecture—LLaMA-O1. We have successfully enabled the model to acquire advanced thinking skills through interaction with the search tree during the learning process without human annotations.
-
-We plan to complete the model training and evaluation no later than the end of November and will release all data, models, and code to the community.
-For the linear representation format of Long COT (OpenLongCoT), please refer:
 https://huggingface.co/datasets/qq8933/OpenLongCoT-Pretrain
 https://huggingface.co/datasets/qq8933/OpenLongCoT-SFT
 
