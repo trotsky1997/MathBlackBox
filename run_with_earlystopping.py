@@ -568,6 +568,7 @@ def extract_label(text: str,type='') -> str:
 
 @lru_cache(1024)
 def check(gt,ans):
+    # Early stopping if ground truth answer was reached
     gt_label = extract_label(gt)
     if gt_label.isdigit():
         type = 'digit'
@@ -747,6 +748,7 @@ def main_loop(query,ground_truth,max_iter=16,ans_format=''):
         sampling_reward(total_bad)
     hints_list = []
     if check(ground_truth,weak_answer) :#and 'testtime' in DATA_NAME
+        # Early stopping if ground truth answer was reached
         return hints_list,answers_list,to_explore,to_explore_reward,hints_bank,history_bank,hints_reward_imp_bank,fathers,childs,ucb_bank
     patient = 0 if 'testtime' not in DATA_NAME else 0
     alpha = 0.45
@@ -767,8 +769,10 @@ def main_loop(query,ground_truth,max_iter=16,ans_format=''):
         answers_list.append(answer)
         hints_list.append(hints)
         if check(ground_truth,answer) and 'testtime' in DATA_NAME:
+            # Early stopping if ground truth answer was reached
             return hints_list,answers_list,to_explore,to_explore_reward,hints_bank,history_bank,hints_reward_imp_bank,fathers,childs,ucb_bank
         elif check(ground_truth,answer) and 'testtime' not in DATA_NAME:
+            # Early stopping if ground truth answer was reached
             if patient <= 0:
                 return hints_list,answers_list,to_explore,to_explore_reward,hints_bank,history_bank,hints_reward_imp_bank,fathers,childs,ucb_bank
             patient -= 1
