@@ -64,9 +64,9 @@ datasets were given by the first part of `DATA_DIR_NAME` arguments, like ` gsm8k
 
 Using `run_olympics.py` to run all of them.
 
-'check' function was used to early stopping the search process if ground truth answer was reached.
+`check` function was used to early stopping the search process if ground truth answer was reached.
 
-If you have enough computing resource, you can comment lines including 'check' function to disable early stopping.
+If you have enough computing resource, you can comment lines including `check` function to disable early stopping.
 
 Alert: That would consume a long time.
 
